@@ -8,10 +8,10 @@ module.exports = {
     // as a result of next-mdx-remote
     if (!isServer) {
       config.node = {
-        fs: 'empty'
-      }
+        fs: 'empty',
+      };
     }
 
-    return config
-  }
-}
+    return config;
+  },
+};

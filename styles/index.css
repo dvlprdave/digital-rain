@@ -13,3 +13,11 @@
 /* Stop purging. */
 
 /* Your own custom utilities */
+html {
+  overflow: -moz-scrollbars-none;
+  scrollbar-width: none;
+}
+
+a strong {
+  color: blue;
+}

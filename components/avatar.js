@@ -1,8 +1,9 @@
-export default function Avatar({ name, picture }) {
+export default function Avatar({ name }) {
   return (
-    <div className="flex items-center">
-      <img src={picture} className="w-12 h-12 rounded-full mr-4" alt={name} />
-      <div className="text-xl font-bold">{name}</div>
+    <div>
+      <div>
+        By <span className='font-bold'>{name}</span>
+      </div>
     </div>
-  )
+  );
 }
