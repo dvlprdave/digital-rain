@@ -6,6 +6,7 @@ import Layout from '../components/layout';
 import { getAllPosts } from '../lib/api';
 import Head from 'next/head';
 import { BLOG_NAME } from '../lib/constants';
+import Navbar from '../components/navbar';
 
 export default function Index({ allPosts }) {
   const heroPost = allPosts[0];
@@ -17,6 +18,7 @@ export default function Index({ allPosts }) {
         <Head>
           <title>{BLOG_NAME}</title>
         </Head>
+        {/* <Navbar /> */}
         <Container>
           <Intro />
           {heroPost && (
