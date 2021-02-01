@@ -21,3 +21,11 @@ html {
 a strong {
   color: blue;
 }
+
+.en-dash:before {
+  content: '';
+  display: inline-block;
+  width:40px;
+  margin-right: 15px;
+  border-bottom: 8px solid #FBDBD3;
+}

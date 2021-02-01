@@ -20,7 +20,7 @@ const ProgressBar = () => {
 
     return () => window.removeEventListener('scroll', progressBarHandler);
   }, []);
-  
+
   return (
     <div
       id='progressBarContainer'
@@ -29,10 +29,10 @@ const ProgressBar = () => {
       <div
         id='progressBar'
         className='origin-top-left h-6 bg-black transform scale-0 opacity-0'
-        style={{transform: `scale(${scroll}, 1)`, opacity: `${scroll}`}}
+        style={{ transform: `scale(${scroll}, 1)`, opacity: `${scroll}` }}
       ></div>
     </div>
   );
 };
 
-export default ProgressBar
+export default ProgressBar;
